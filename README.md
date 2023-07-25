@@ -2,7 +2,12 @@
 
 Test integration of Radix UI in a fresh project
 
-Status : not working
+Status :
+
+
+Erro with :
+ DropdownMenuDemo 
+  FormDemo 
 
 
 https://www.radix-ui.com/docs/primitives/components/progress

@@ -6,7 +6,11 @@ import * as $0 from "./routes/_404.tsx";
 import * as $1 from "./routes/_app.tsx";
 import * as $2 from "./routes/index.tsx";
 import * as $$0 from "./islands/Alert.tsx";
-import * as $$1 from "./islands/Progress.tsx";
+import * as $$1 from "./islands/DropdownMenu.tsx";
+import * as $$2 from "./islands/Form.tsx";
+import * as $$3 from "./islands/Menubar.tsx";
+import * as $$4 from "./islands/Progress.tsx";
+import * as $$5 from "./islands/Radiogroup.tsx";
 
 const manifest = {
   routes: {
@@ -16,7 +20,11 @@ const manifest = {
   },
   islands: {
     "./islands/Alert.tsx": $$0,
-    "./islands/Progress.tsx": $$1,
+    "./islands/DropdownMenu.tsx": $$1,
+    "./islands/Form.tsx": $$2,
+    "./islands/Menubar.tsx": $$3,
+    "./islands/Progress.tsx": $$4,
+    "./islands/Radiogroup.tsx": $$5,
   },
   baseUrl: import.meta.url,
 };
