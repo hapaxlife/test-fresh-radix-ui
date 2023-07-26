@@ -1,6 +1,5 @@
-/*
-import * as Toast from '@radix-ui/react-toast';
-import { useRef, useEffect, useState } from "preact/hooks";
+import * as Toast from "@radix-ui/react-toast";
+import { useEffect, useRef, useState } from "preact/hooks";
 
 const ToastDemo = () => {
   const [open, setOpen] = useState(false);
@@ -43,7 +42,11 @@ const ToastDemo = () => {
             {prettyDate(eventDateRef.current)}
           </time>
         </Toast.Description>
-        <Toast.Action className="[grid-area:_action]" asChild altText="Goto schedule to undo">
+        <Toast.Action
+          className="[grid-area:_action]"
+          asChild
+          altText="Goto schedule to undo"
+        >
           <button className="inline-flex items-center justify-center rounded font-medium text-xs px-[10px] leading-[25px] h-[25px] bg-green2 text-green11 shadow-[inset_0_0_0_1px] shadow-green7 hover:shadow-[inset_0_0_0_1px] hover:shadow-green8 focus:shadow-[0_0_0_2px] focus:shadow-green8">
             Undo
           </button>
@@ -60,10 +63,11 @@ function oneWeekAway() {
   return new Date(inOneWeek);
 }
 
-function prettyDate(date:Date) {
-  return new Intl.DateTimeFormat('en-US', { dateStyle: 'full', timeStyle: 'short' }).format(date);
+function prettyDate(date: Date) {
+  return new Intl.DateTimeFormat("en-US", {
+    dateStyle: "full",
+    timeStyle: "short",
+  }).format(date);
 }
 
 export default ToastDemo;
-
-*/
