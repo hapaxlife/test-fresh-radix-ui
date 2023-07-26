@@ -9,8 +9,11 @@ import * as $$0 from "./islands/Alert.tsx";
 import * as $$1 from "./islands/DropdownMenu.tsx";
 import * as $$2 from "./islands/Form.tsx";
 import * as $$3 from "./islands/Menubar.tsx";
-import * as $$4 from "./islands/Progress.tsx";
-import * as $$5 from "./islands/Radiogroup.tsx";
+import * as $$4 from "./islands/NavigationMenu.tsx";
+import * as $$5 from "./islands/Progress.tsx";
+import * as $$6 from "./islands/Radiogroup.tsx";
+import * as $$7 from "./islands/Switch.tsx";
+import * as $$8 from "./islands/Toast.tsx";
 
 const manifest = {
   routes: {
@@ -23,8 +26,11 @@ const manifest = {
     "./islands/DropdownMenu.tsx": $$1,
     "./islands/Form.tsx": $$2,
     "./islands/Menubar.tsx": $$3,
-    "./islands/Progress.tsx": $$4,
-    "./islands/Radiogroup.tsx": $$5,
+    "./islands/NavigationMenu.tsx": $$4,
+    "./islands/Progress.tsx": $$5,
+    "./islands/Radiogroup.tsx": $$6,
+    "./islands/Switch.tsx": $$7,
+    "./islands/Toast.tsx": $$8,
   },
   baseUrl: import.meta.url,
 };

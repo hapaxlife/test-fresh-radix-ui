@@ -4,12 +4,11 @@ import AlertDialogDemo from "@/islands/Alert.tsx";
 import ProgressDemo from "@/islands/Progress.tsx";
 import MenubarDemo from "@/islands/Menubar.tsx";
 import RadioGroupDemo from "@/islands/Radiogroup.tsx";
-
-//import DropdownMenuDemo from "@/islands/DropdownMenu.tsx";
-//
-//Form not working
-// import FormDemo from "@/islands/Form.tsx";
-// <FormDemo></FormDemo>
+import DropdownMenuDemo from "@/islands/DropdownMenu.tsx";
+import FormDemo from "@/islands/Form.tsx";
+//import NavigationMenu from "@/islands/NavigationMenu.tsx";
+// import Switch from "@/islands/Switch.tsx";
+import ToastDemo from "@/islands/Toast.tsx";
 
 export default function Home() {
   return (
@@ -22,6 +21,9 @@ export default function Home() {
        <ProgressDemo></ProgressDemo>
     <MenubarDemo></MenubarDemo>
     <RadioGroupDemo></RadioGroupDemo>
+    <FormDemo></FormDemo>
+    <DropdownMenuDemo></DropdownMenuDemo>
+   <ToastDemo></ToastDemo>
       </div>
     </>
   );
