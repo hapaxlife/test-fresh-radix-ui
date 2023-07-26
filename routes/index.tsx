@@ -6,9 +6,9 @@ import MenubarDemo from "@/islands/Menubar.tsx";
 import RadioGroupDemo from "@/islands/Radiogroup.tsx";
 import DropdownMenuDemo from "@/islands/DropdownMenu.tsx";
 import FormDemo from "@/islands/Form.tsx";
-//import NavigationMenu from "@/islands/NavigationMenu.tsx";
+// import NavigationMenu from "@/islands/NavigationMenu.tsx";
 // import Switch from "@/islands/Switch.tsx";
-import ToastDemo from "@/islands/Toast.tsx";
+// import ToastDemo from "@/islands/Toast.tsx";
 
 export default function Home() {
   return (
@@ -23,7 +23,6 @@ export default function Home() {
     <RadioGroupDemo></RadioGroupDemo>
     <FormDemo></FormDemo>
     <DropdownMenuDemo></DropdownMenuDemo>
-   <ToastDemo></ToastDemo>
       </div>
     </>
   );

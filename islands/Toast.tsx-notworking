@@ -1,3 +1,4 @@
+/*
 import * as Toast from '@radix-ui/react-toast';
 import { useRef, useEffect, useState } from "preact/hooks";
 
@@ -64,3 +65,5 @@ function prettyDate(date:Date) {
 }
 
 export default ToastDemo;
+
+*/
