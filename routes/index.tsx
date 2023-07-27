@@ -1,6 +1,8 @@
 import { Head } from "$fresh/runtime.ts";
-import { useSignal } from "@preact/signals";
+import AccordionDemo from "@/islands/Accordion.tsx";
+import AspectRatioDemo from "@/islands/AspectRatio.tsx";
 import AlertDialogDemo from "@/islands/Alert.tsx";
+import AvatarDemo from "@/islands/Avatar.tsx";
 import ProgressDemo from "@/islands/Progress.tsx";
 import MenubarDemo from "@/islands/Menubar.tsx";
 import RadioGroupDemo from "@/islands/Radiogroup.tsx";
@@ -16,6 +18,8 @@ import SelectDemo from "@/islands/Select.tsx";
 import SeparatorDemo from "@/islands/Separator.tsx";
 import TabsDemo from "@/islands/Tabs.tsx";
 import ToolbarDemo from "@/islands/Toolbar.tsx";
+import ToggleDemo from "@/islands/Toggle.tsx";
+import ToggleGroupDemo from "@/islands/ToggleGroup.tsx";
 // import SliderDemo from "@/islands/Slider.tsx";
 // import ContextMenuDemo from "@/islands/ContextMenu.tsx";
 // import NavigationMenu from "@/islands/NavigationMenu.tsx";
@@ -29,6 +33,10 @@ export default function Home() {
         <title>Test Fresh Radix UI</title>
       </Head>
       <div class="px-4 py-8 mx-auto bg-gray-8">
+        <ToggleGroupDemo></ToggleGroupDemo>
+        <ToggleDemo></ToggleDemo>
+        <AvatarDemo></AvatarDemo>
+        <AccordionDemo></AccordionDemo>
         <AlertDialogDemo></AlertDialogDemo>
         <ProgressDemo></ProgressDemo>
         <MenubarDemo></MenubarDemo>
@@ -45,6 +53,7 @@ export default function Home() {
         <SeparatorDemo></SeparatorDemo>
         <TabsDemo></TabsDemo>
         <ToolbarDemo></ToolbarDemo>
+        <AspectRatioDemo></AspectRatioDemo>
       </div>
     </>
   );

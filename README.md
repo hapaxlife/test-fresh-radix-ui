@@ -4,23 +4,28 @@ Test integration of Radix UI in a fresh project
 
 Examples come from https://www.radix-ui.com/docs/primitives/components/accordion
 
+- [x] Accordion
 - [x] AlertDialog
+- [x] AspectRatio
+- [x] Avatar
+- [x] Checkbox
+- [x] Collapsible
 - [x] DropdownMenu
 - [x] Form
 - [x] Menubar
 - [x] Progress
 - [x] Radiogroup
-- [x] Collapsible
-- [x] Checkbox
 - [x] HoverCard
 - [x] Form
 - [x] Dialog
 - [x] Label
 - [x] Popover
-- [x] Select
 - [x] Separator
 - [x] Tabs
 - [x] Toolbar
+- [x] Toggle
+- [x] Toggle Group
+- [ ] Select => when clicked, freeze page
 - [ ] Context Menu
 - [ ] NavigationMenu
 - [ ] Switch

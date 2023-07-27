@@ -5,27 +5,32 @@
 import * as $0 from "./routes/_404.tsx";
 import * as $1 from "./routes/_app.tsx";
 import * as $2 from "./routes/index.tsx";
-import * as $$0 from "./islands/Alert.tsx";
-import * as $$1 from "./islands/Checkbox.tsx";
-import * as $$2 from "./islands/Collapsible.tsx";
-import * as $$3 from "./islands/ContextMenu.tsx";
-import * as $$4 from "./islands/Dialog.tsx";
-import * as $$5 from "./islands/DropdownMenu.tsx";
-import * as $$6 from "./islands/Form.tsx";
-import * as $$7 from "./islands/HoverCard.tsx";
-import * as $$8 from "./islands/Label.tsx";
-import * as $$9 from "./islands/Menubar.tsx";
-import * as $$10 from "./islands/NavigationMenu.tsx";
-import * as $$11 from "./islands/Popover.tsx";
-import * as $$12 from "./islands/Progress.tsx";
-import * as $$13 from "./islands/Radiogroup.tsx";
-import * as $$14 from "./islands/Select.tsx";
-import * as $$15 from "./islands/Separator.tsx";
-import * as $$16 from "./islands/Slider.tsx";
-import * as $$17 from "./islands/Switch.tsx";
-import * as $$18 from "./islands/Tabs.tsx";
-import * as $$19 from "./islands/Toast.tsx";
-import * as $$20 from "./islands/Toolbar.tsx";
+import * as $$0 from "./islands/Accordion.tsx";
+import * as $$1 from "./islands/Alert.tsx";
+import * as $$2 from "./islands/AspectRatio.tsx";
+import * as $$3 from "./islands/Avatar.tsx";
+import * as $$4 from "./islands/Checkbox.tsx";
+import * as $$5 from "./islands/Collapsible.tsx";
+import * as $$6 from "./islands/ContextMenu.tsx";
+import * as $$7 from "./islands/Dialog.tsx";
+import * as $$8 from "./islands/DropdownMenu.tsx";
+import * as $$9 from "./islands/Form.tsx";
+import * as $$10 from "./islands/HoverCard.tsx";
+import * as $$11 from "./islands/Label.tsx";
+import * as $$12 from "./islands/Menubar.tsx";
+import * as $$13 from "./islands/NavigationMenu.tsx";
+import * as $$14 from "./islands/Popover.tsx";
+import * as $$15 from "./islands/Progress.tsx";
+import * as $$16 from "./islands/Radiogroup.tsx";
+import * as $$17 from "./islands/Select.tsx";
+import * as $$18 from "./islands/Separator.tsx";
+import * as $$19 from "./islands/Slider.tsx";
+import * as $$20 from "./islands/Switch.tsx";
+import * as $$21 from "./islands/Tabs.tsx";
+import * as $$22 from "./islands/Toast.tsx";
+import * as $$23 from "./islands/Toggle.tsx";
+import * as $$24 from "./islands/ToggleGroup.tsx";
+import * as $$25 from "./islands/Toolbar.tsx";
 
 const manifest = {
   routes: {
@@ -34,27 +39,32 @@ const manifest = {
     "./routes/index.tsx": $2,
   },
   islands: {
-    "./islands/Alert.tsx": $$0,
-    "./islands/Checkbox.tsx": $$1,
-    "./islands/Collapsible.tsx": $$2,
-    "./islands/ContextMenu.tsx": $$3,
-    "./islands/Dialog.tsx": $$4,
-    "./islands/DropdownMenu.tsx": $$5,
-    "./islands/Form.tsx": $$6,
-    "./islands/HoverCard.tsx": $$7,
-    "./islands/Label.tsx": $$8,
-    "./islands/Menubar.tsx": $$9,
-    "./islands/NavigationMenu.tsx": $$10,
-    "./islands/Popover.tsx": $$11,
-    "./islands/Progress.tsx": $$12,
-    "./islands/Radiogroup.tsx": $$13,
-    "./islands/Select.tsx": $$14,
-    "./islands/Separator.tsx": $$15,
-    "./islands/Slider.tsx": $$16,
-    "./islands/Switch.tsx": $$17,
-    "./islands/Tabs.tsx": $$18,
-    "./islands/Toast.tsx": $$19,
-    "./islands/Toolbar.tsx": $$20,
+    "./islands/Accordion.tsx": $$0,
+    "./islands/Alert.tsx": $$1,
+    "./islands/AspectRatio.tsx": $$2,
+    "./islands/Avatar.tsx": $$3,
+    "./islands/Checkbox.tsx": $$4,
+    "./islands/Collapsible.tsx": $$5,
+    "./islands/ContextMenu.tsx": $$6,
+    "./islands/Dialog.tsx": $$7,
+    "./islands/DropdownMenu.tsx": $$8,
+    "./islands/Form.tsx": $$9,
+    "./islands/HoverCard.tsx": $$10,
+    "./islands/Label.tsx": $$11,
+    "./islands/Menubar.tsx": $$12,
+    "./islands/NavigationMenu.tsx": $$13,
+    "./islands/Popover.tsx": $$14,
+    "./islands/Progress.tsx": $$15,
+    "./islands/Radiogroup.tsx": $$16,
+    "./islands/Select.tsx": $$17,
+    "./islands/Separator.tsx": $$18,
+    "./islands/Slider.tsx": $$19,
+    "./islands/Switch.tsx": $$20,
+    "./islands/Tabs.tsx": $$21,
+    "./islands/Toast.tsx": $$22,
+    "./islands/Toggle.tsx": $$23,
+    "./islands/ToggleGroup.tsx": $$24,
+    "./islands/Toolbar.tsx": $$25,
   },
   baseUrl: import.meta.url,
 };
