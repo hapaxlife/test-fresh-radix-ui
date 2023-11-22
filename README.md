@@ -2,7 +2,7 @@
 
 Test integration of Radix UI in a fresh project
 
-Examples come from https://www.radix-ui.com/docs/primitives/components/accordion
+Examples come from https://www.radix-ui.com/primitives/docs/overview/introduction
 
 - [x] Accordion
 - [x] AlertDialog
@@ -26,8 +26,7 @@ Examples come from https://www.radix-ui.com/docs/primitives/components/accordion
 - [x] Toggle
 - [x] Toggle Group
 - [x] Switch
-- [ ] NavigationMenu => `NavigationMenu.tsx:138 Uncaught (in promise) ReferenceError: classNames is not defined`
-
+- [x] NavigationMenu
 
 ** Not working **
 - [ ] Select => when clicked, page freezes
@@ -41,7 +40,6 @@ For most import, you need to add an external to esm.sh
 "@radix-ui/react-form" :
 "https://esm.sh/@radix-ui/react-form@latest?external=react,react-dom&target=es2022",
 
-deno task esm:add @radix-ui/react-form
 
 Sometimes : this error appears. Why ?
 
