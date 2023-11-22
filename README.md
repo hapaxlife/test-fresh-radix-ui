@@ -25,12 +25,16 @@ Examples come from https://www.radix-ui.com/docs/primitives/components/accordion
 - [x] Toolbar
 - [x] Toggle
 - [x] Toggle Group
-- [ ] Select => when clicked, freeze page
-- [ ] Context Menu
-- [ ] NavigationMenu
-- [ ] Switch
-- [ ] Toast
-- [ ] Slider
+- [x] Switch
+- [ ] NavigationMenu => `NavigationMenu.tsx:138 Uncaught (in promise) ReferenceError: classNames is not defined`
+
+
+** Not working **
+- [ ] Select => when clicked, page freezes
+- [ ] Toast => `Cannot read properties of null (reading 'useRef')`
+- [ ] Slider => `Cannot read properties of null (reading 'useCallback')`
+- [ ] Context Menu => `Cannot read properties of null (reading 'useMemo')`
+
 
 For most import, you need to add an external to esm.sh
 
