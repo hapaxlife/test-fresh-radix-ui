@@ -4,6 +4,8 @@ Test integration of Radix UI in a fresh project
 
 Examples come from https://www.radix-ui.com/primitives/docs/overview/introduction
 
+Use of esm v135 enhances compatibility
+
 - [x] Accordion
 - [x] AlertDialog
 - [x] AspectRatio
@@ -27,12 +29,12 @@ Examples come from https://www.radix-ui.com/primitives/docs/overview/introductio
 - [x] Toggle Group
 - [x] Switch
 - [x] NavigationMenu
+- [x] Slider => work with v135 but selector doesn't appear
+- [x] Toast
+- [x] Context Menu
 
 ** Not working **
-- [ ] Select => when clicked, page freezes
-- [ ] Toast => `Cannot read properties of null (reading 'useRef')`
-- [ ] Slider => `Cannot read properties of null (reading 'useCallback')`
-- [ ] Context Menu => `Cannot read properties of null (reading 'useMemo')`
+- [ ] Select => when clicked, open menu but page freezes
 
 
 For most import, you need to add an external to esm.sh

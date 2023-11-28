@@ -21,17 +21,14 @@ import ToolbarDemo from "@/islands/Toolbar.tsx";
 import ToggleDemo from "@/islands/Toggle.tsx";
 import ToggleGroupDemo from "@/islands/ToggleGroup.tsx";
 import NavigationMenu from "@/islands/NavigationMenu.tsx";
+import SelectDemo from "@/islands/Select.tsx";
+import SliderDemo from "@/islands/Slider.tsx";
+import ToastDemo from "@/islands/Toast.tsx";
+import ContextMenuDemo from "@/islands/ContextMenu.tsx";
 
 // Not working
 /*
-import SelectDemo from "@/islands/Select.tsx";
-<SelectDemo></SelectDemo>
-import SliderDemo from "@/islands/Slider.tsx";
-<SliderDemo></SliderDemo>
-import ToastDemo from "@/islands/Toast.tsx";
-  <ToastDemo></ToastDemo>
-  import ContextMenuDemo from "@/islands/ContextMenu.tsx";
-   <ContextMenuDemo></ContextMenuDemo>
+SelectDemo => page freeze when clicked
 */
 
 export default function Home() {
@@ -40,7 +37,12 @@ export default function Home() {
       <Head>
         <title>Test Fresh Radix UI</title>
       </Head>
+
       <div class="px-4 py-8 mx-auto bg-gray-8">
+        <ContextMenuDemo></ContextMenuDemo>
+        <ToastDemo></ToastDemo>
+        <SliderDemo></SliderDemo>
+        <SelectDemo></SelectDemo>
         <NavigationMenu></NavigationMenu>
         <Switch></Switch>
         <ToggleGroupDemo></ToggleGroupDemo>
