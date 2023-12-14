@@ -2,73 +2,72 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_404.tsx";
-import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/index.tsx";
-import * as $3 from "./routes/test.tsx";
-import * as $$0 from "./islands/Accordion.tsx";
-import * as $$1 from "./islands/Alert.tsx";
-import * as $$2 from "./islands/AspectRatio.tsx";
-import * as $$3 from "./islands/Avatar.tsx";
-import * as $$4 from "./islands/Checkbox.tsx";
-import * as $$5 from "./islands/Collapsible.tsx";
-import * as $$6 from "./islands/ContextMenu.tsx";
-import * as $$7 from "./islands/Dialog.tsx";
-import * as $$8 from "./islands/DropdownMenu.tsx";
-import * as $$9 from "./islands/Form.tsx";
-import * as $$10 from "./islands/HoverCard.tsx";
-import * as $$11 from "./islands/Label.tsx";
-import * as $$12 from "./islands/Menubar.tsx";
-import * as $$13 from "./islands/NavigationMenu.tsx";
-import * as $$14 from "./islands/Popover.tsx";
-import * as $$15 from "./islands/Progress.tsx";
-import * as $$16 from "./islands/Radiogroup.tsx";
-import * as $$17 from "./islands/Select.tsx";
-import * as $$18 from "./islands/Separator.tsx";
-import * as $$19 from "./islands/Slider.tsx";
-import * as $$20 from "./islands/Switch.tsx";
-import * as $$21 from "./islands/Tabs.tsx";
-import * as $$22 from "./islands/Toast.tsx";
-import * as $$23 from "./islands/Toggle.tsx";
-import * as $$24 from "./islands/ToggleGroup.tsx";
-import * as $$25 from "./islands/Toolbar.tsx";
+import * as $_404 from "./routes/_404.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $index from "./routes/index.tsx";
+import * as $Accordion from "./islands/Accordion.tsx";
+import * as $Alert from "./islands/Alert.tsx";
+import * as $AspectRatio from "./islands/AspectRatio.tsx";
+import * as $Avatar from "./islands/Avatar.tsx";
+import * as $Checkbox from "./islands/Checkbox.tsx";
+import * as $Collapsible from "./islands/Collapsible.tsx";
+import * as $ContextMenu from "./islands/ContextMenu.tsx";
+import * as $Dialog from "./islands/Dialog.tsx";
+import * as $DropdownMenu from "./islands/DropdownMenu.tsx";
+import * as $Form from "./islands/Form.tsx";
+import * as $HoverCard from "./islands/HoverCard.tsx";
+import * as $Label from "./islands/Label.tsx";
+import * as $Menubar from "./islands/Menubar.tsx";
+import * as $NavigationMenu from "./islands/NavigationMenu.tsx";
+import * as $Popover from "./islands/Popover.tsx";
+import * as $Progress from "./islands/Progress.tsx";
+import * as $Radiogroup from "./islands/Radiogroup.tsx";
+import * as $Select from "./islands/Select.tsx";
+import * as $Separator from "./islands/Separator.tsx";
+import * as $Slider from "./islands/Slider.tsx";
+import * as $Switch from "./islands/Switch.tsx";
+import * as $Tabs from "./islands/Tabs.tsx";
+import * as $Toast from "./islands/Toast.tsx";
+import * as $Toggle from "./islands/Toggle.tsx";
+import * as $ToggleGroup from "./islands/ToggleGroup.tsx";
+import * as $Toolbar from "./islands/Toolbar.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_404.tsx": $0,
-    "./routes/_app.tsx": $1,
-    "./routes/index.tsx": $2,
-    "./routes/test.tsx": $3,
+    "./routes/_404.tsx": $_404,
+    "./routes/_app.tsx": $_app,
+    "./routes/index.tsx": $index,
   },
   islands: {
-    "./islands/Accordion.tsx": $$0,
-    "./islands/Alert.tsx": $$1,
-    "./islands/AspectRatio.tsx": $$2,
-    "./islands/Avatar.tsx": $$3,
-    "./islands/Checkbox.tsx": $$4,
-    "./islands/Collapsible.tsx": $$5,
-    "./islands/ContextMenu.tsx": $$6,
-    "./islands/Dialog.tsx": $$7,
-    "./islands/DropdownMenu.tsx": $$8,
-    "./islands/Form.tsx": $$9,
-    "./islands/HoverCard.tsx": $$10,
-    "./islands/Label.tsx": $$11,
-    "./islands/Menubar.tsx": $$12,
-    "./islands/NavigationMenu.tsx": $$13,
-    "./islands/Popover.tsx": $$14,
-    "./islands/Progress.tsx": $$15,
-    "./islands/Radiogroup.tsx": $$16,
-    "./islands/Select.tsx": $$17,
-    "./islands/Separator.tsx": $$18,
-    "./islands/Slider.tsx": $$19,
-    "./islands/Switch.tsx": $$20,
-    "./islands/Tabs.tsx": $$21,
-    "./islands/Toast.tsx": $$22,
-    "./islands/Toggle.tsx": $$23,
-    "./islands/ToggleGroup.tsx": $$24,
-    "./islands/Toolbar.tsx": $$25,
+    "./islands/Accordion.tsx": $Accordion,
+    "./islands/Alert.tsx": $Alert,
+    "./islands/AspectRatio.tsx": $AspectRatio,
+    "./islands/Avatar.tsx": $Avatar,
+    "./islands/Checkbox.tsx": $Checkbox,
+    "./islands/Collapsible.tsx": $Collapsible,
+    "./islands/ContextMenu.tsx": $ContextMenu,
+    "./islands/Dialog.tsx": $Dialog,
+    "./islands/DropdownMenu.tsx": $DropdownMenu,
+    "./islands/Form.tsx": $Form,
+    "./islands/HoverCard.tsx": $HoverCard,
+    "./islands/Label.tsx": $Label,
+    "./islands/Menubar.tsx": $Menubar,
+    "./islands/NavigationMenu.tsx": $NavigationMenu,
+    "./islands/Popover.tsx": $Popover,
+    "./islands/Progress.tsx": $Progress,
+    "./islands/Radiogroup.tsx": $Radiogroup,
+    "./islands/Select.tsx": $Select,
+    "./islands/Separator.tsx": $Separator,
+    "./islands/Slider.tsx": $Slider,
+    "./islands/Switch.tsx": $Switch,
+    "./islands/Tabs.tsx": $Tabs,
+    "./islands/Toast.tsx": $Toast,
+    "./islands/Toggle.tsx": $Toggle,
+    "./islands/ToggleGroup.tsx": $ToggleGroup,
+    "./islands/Toolbar.tsx": $Toolbar,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;
