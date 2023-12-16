@@ -4,6 +4,8 @@ Test integration of Radix UI in a fresh project 1.6.1
 
 Examples come from https://www.radix-ui.com/primitives/docs/overview/introduction
 
+## Primitive compatibility
+
 Use of esm v135 enhances compatibility
 
 - [x] Accordion
@@ -37,8 +39,15 @@ Use of esm v135 enhances compatibility
 - [ ] Select => when clicked, open menu but page freezes
 - See https://github.com/radix-ui/primitives/issues/2557
 
+## ESM import
 
 For most import, you need to add an external to esm.sh
 
 "@radix-ui/react-form" :
 "https://esm.sh/@radix-ui/react-form@latest?external=react,react-dom&target=es2022",
+
+## Production
+
+In production, you need to set up https://fresh.deno.dev/docs/concepts/ahead-of-time-builds
+instead an "automatic" deploy
+Otherwise, RadixUI components wont' work.
