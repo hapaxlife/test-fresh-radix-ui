@@ -50,4 +50,4 @@ For most import, you need to add an external to esm.sh
 
 In production, you need to set up https://fresh.deno.dev/docs/concepts/ahead-of-time-builds
 instead an "automatic" deploy
-Otherwise, RadixUI components wont' work.
+Otherwise, RadixUI components won't work.
